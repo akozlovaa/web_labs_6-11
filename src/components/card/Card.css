@@ -1,0 +1,58 @@
+.card {
+  width: 250px;
+  max-height: 333px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 20px;
+  box-shadow: 0 5px 15px rgb(0, 0, 0, .15);
+  transition: all .1s ease-in-out;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgb(0, 0, 0, .1);
+  transition: all .1s ease-in-out;
+}
+.item-card-header {
+  width: 100%;
+  height:150px;
+  max-height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: 90%;
+  background-image: url('https://i.allo.ua/media/catalog/product/cache/1/image/600x415/602f0fa2c1f0d1ba5e241f914e856ff9/w/w/wwru_macbook-air_q121_spacegray_pdp-image-1_1.jpg');
+}
+.item-card-body {
+  padding: 20px 15px;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.card-text {
+  font-size: 14px;
+  color: #5c5c5c;
+  margin-top: 5px;
+}
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
+}
+.card-price {
+  font-weight: 500;
+  color: #f16462;
+}
+.card-button {
+  border: none;
+  padding: 6px 24px;
+  border-radius: 8px;
+  background: #f16462;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
